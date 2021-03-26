@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/today_in_history'
+
+TodayInHistory::CLI.new.call
